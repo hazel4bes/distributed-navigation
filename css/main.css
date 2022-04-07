@@ -3,6 +3,7 @@ html {
   font-size: 1.125rem;
   line-height: 1.5;
   background-color: #fff;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -28,8 +29,8 @@ p {
 }
 
 ol {
-  list-style-type: none;
   display: flex;
+  list-style: none;
   justify-content: space-around;
   color: #0074d9;
 }
