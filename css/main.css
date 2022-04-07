@@ -11,7 +11,7 @@ html {
 
 body {
   font-size: 1.125rem;
-  margin: auto;
+  margin: .5rem;
 }
 
 header {
@@ -38,12 +38,13 @@ nav ul {
   list-style: none;
   color: #0074d9;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav a {
   list-style: none;
   color: #0074d9;
+  padding: .6em;
 }
 
 a:hover {
