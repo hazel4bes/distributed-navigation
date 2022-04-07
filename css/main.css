@@ -14,9 +14,10 @@ header {
   display: flex;
   background-color: #e2e2e2;
   justify-content: space-between;
+  align-items: stretch;
 }
 
-h1 {
+header h1 {
   display: none;
 }
 
@@ -24,11 +25,11 @@ header img {
   width: 2rem;
 }
 
-p {
+header p {
   font-style: italic;
 }
 
-ol {
+nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
