@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  background-color: #e2e2e2;
+  justify-content: space-between;
+}
+
+h1 {
+  display: none;
+}
+
+header img {
+  width: 2rem;
+}
+
+p {
+  font-style: italic;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: #0074d9;
+}
