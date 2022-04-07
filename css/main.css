@@ -1,13 +1,16 @@
 html {
   box-sizing: border-box;
-  font-size: 1.125rem;
-  line-height: 1.5;
   background-color: #fff;
-  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-family: sans-serif;
 }
 
 header {
@@ -18,7 +21,7 @@ header {
 }
 
 header h1 {
-
+padding: 0;
 }
 
 header img {
@@ -35,8 +38,12 @@ nav ul {
   justify-content: space-around;
   color: #0074d9;
   display: flex;
+  justify-content: space-around;
 }
 
 nav a {
   list-style: none;
 }
+
+a:hover {
+  color: orange;
