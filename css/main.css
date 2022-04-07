@@ -30,8 +30,12 @@ header p {
 }
 
 nav ul {
-  display: flex;
   list-style: none;
   justify-content: space-around;
   color: #0074d9;
+  display: flex;
+}
+
+nav a {
+  list-style: none;
 }
