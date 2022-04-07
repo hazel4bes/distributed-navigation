@@ -42,7 +42,9 @@ nav ul {
 
 nav a {
   list-style: none;
+  color: #0074d9;
 }
 
 a:hover {
   color: orange;
+}
