@@ -19,6 +19,7 @@ header {
   background-color: #e2e2e2;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 header h1 {
