@@ -23,6 +23,7 @@ header {
 
 header h1 {
 margin: auto;
+padding-left: 0;
 }
 
 header img {
